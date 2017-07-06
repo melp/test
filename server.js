@@ -1,4 +1,4 @@
-var koa 	= require('koa');
+﻿var koa 	= require('koa');
 var Router 	= require('./siteRouter');
 var views 	= require('koa-views');
 
@@ -6,7 +6,7 @@ var app 	=  new koa();
 
 const  serve = require("koa-static");
 app.use(serve(__dirname+ "/static/html"));
-
+  
 // logger
 app.use(async (ctx, next) => {
   const start = Date.now();
