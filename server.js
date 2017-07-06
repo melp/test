@@ -1,7 +1,7 @@
 ﻿var koa 	= require('koa');
 var Router 	= require('./siteRouter');
 var views 	= require('koa-views');
-sssss
+
 var app 	=  new koa();
 
 const  serve = require("koa-static");
